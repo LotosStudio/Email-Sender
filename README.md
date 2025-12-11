@@ -32,7 +32,8 @@ The script uses the password environment variable to avoid storing the password 
 ### 4. Run the program
 `python main.py`
 
-Type Email recipient
+Type Email recipient or create a variable with Email
+
 Type your message when prompted — it will be sent to your inbox.
 
 ## ⚡ Possible Issues
