@@ -22,6 +22,7 @@ The user enters a message, and the program sends it to the same address it uses 
 The script uses the EMAIL_PASSWORD environment variable to avoid storing the password in the code.
 
 Linux / macOS:
+
 `EMAIL="your_password_or_app_password"`
 
 Windows (PowerShell):
