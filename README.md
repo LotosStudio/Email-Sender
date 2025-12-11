@@ -26,6 +26,7 @@ Linux / macOS:
 `EMAIL="your_password_or_app_password"`
 
 Windows (PowerShell):
+
 `setx EMAIL "your_password_or_app_password"`
 
 ### 3. Set your email in the script
