@@ -17,17 +17,17 @@ The user enters a message, and the program sends it to the same address it uses 
 `git clone https://github.com/yourusername/yourrepo.git`
 `cd yourrepo`
 
-### 2. Create an environment variable for the password
-
-The script uses the EMAIL_PASSWORD environment variable to avoid storing the password in the code.
-
-`EMAIL="your_password_or_app_password"`
-
-### 3. Set your email in the script
+### 2. Set your email in the script
 
 In the script, replace:
 
-`sender = "your_email"`
+`sender = "email"`
+
+### 3. Create an environment variable for the password
+
+The script uses the password environment variable to avoid storing the password in the code.
+
+`password="pass"`
 
 ### 4. Run the program
 `python main.py`
