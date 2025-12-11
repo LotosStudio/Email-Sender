@@ -21,18 +21,18 @@ The user enters a message, and the program sends it to the same address it uses 
 
 In the script, replace:
 
-`sender = "email"`
+`sender = "your_email"`
 
 ### 3. Create an environment variable for the password
 
 The script uses the password environment variable to avoid storing the password in the code.
 
-`password="pass"`
+`password="your_pass"`
 
 ### 4. Run the program
 `python main.py`
 
-
+Type Email recipient
 Type your message when prompted — it will be sent to your inbox.
 
 ## ⚡ Possible Issues
